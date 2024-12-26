@@ -1,0 +1,68 @@
+* {
+    background-color: gray;
+}
+
+/* .bckgr {
+    height: 100vh;
+    width: 100vw;
+    margin-right: 10px;
+    position: relative;
+} */
+.title {
+    font-size: 90px;
+    font-weight: 600;
+    display: flex;
+    justify-self: center;
+    font-family:"Sora";
+}
+
+p {
+    margin: 0;
+}
+#option-pos{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-self: center;
+
+}
+.option-section{
+height: 105.5px;
+width: 308px;
+background-color: #faebd7;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+align-items: center;
+justify-content: space-around;
+}
+.option-title{
+    width: 292px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+.option-selection{
+    height: 34.5px;
+    width: 276px;
+    display: flex;
+    align-items: center;
+}
+.op-title-text{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+.add-text{
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#todo{
+height: 100px;
+width: 100px;
+background-color: purple;
+display: none;
+}
