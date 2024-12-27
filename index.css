@@ -1,5 +1,6 @@
 * {
-    background-color: gray;
+    max-width: 1440px;
+    /* background-color: grey; */
 }
 
 .bckgr {
@@ -8,12 +9,13 @@
     margin-right: 10px;
     position: absolute;
 }
+
 .title {
     font-size: 90px;
     font-weight: 600;
     display: flex;
     justify-self: center;
-    font-family:"Sora";
+    font-family: "Sora";
     position: relative;
     background: fixed;
 }
@@ -22,52 +24,120 @@ p {
     margin: 0;
     background: fixed;
 }
-#option-pos{
+
+#option-pos {
     height: 200px;
     width: 90%;
     display: flex;
     align-items: center;
     gap: 20px;
     justify-self: center;
+    justify-content: center;
     position: relative;
     background: fixed;
 
 }
-.option-section{
-height: 105.5px;
-width: 308px;
-background-color: #faebd7;
-border-radius: 8px;
-display: flex;
-flex-direction: column;
-justify-content: end;
-align-items: center;
-justify-content: space-around;
+
+.option-section {
+    height: 105.5px;
+    width: 308px;
+    background-color: #faebd7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-around;
 }
-.option-title{
+
+.option-title {
     width: 292px;
     height: 39px;
     display: flex;
     align-items: center;
+    border: solid;
+    border-color: #808080;
+    border-radius: 8px;
 }
-.option-selection{
+
+.option-selection {
     height: 34.5px;
     width: 276px;
     display: flex;
     align-items: center;
+    border: solid;
+    border-color: #808080;
+    border-radius: 8px;
 }
-.op-title-text{
+
+.op-title-text {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 8px;
 }
-.add-text{
-   font-size: 15px;
-   font-family: Arial, Helvetica, sans-serif;
+
+.add-text {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#options{
-height: 100px;
-width: 100px;
-background-color: lightblue;
-display: none;
+
+/* #options {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    display: none;
+} */
+#modal {
+    position: absolute;
+    height: 525px;
+    width: 420px;
+    margin-top: 440px;
+    background: fixed;
+}
+
+#test {
+    height: 525px;
+    width: 420px;
+    border-radius: 10px;
+}
+
+#add-text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Sora";
+}
+
+.modal-pos {
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    background: fixed;
+    /* background: fixed; */
+}
+
+.title-font {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif, "Sora";
+}
+
+#input-1 {
+    height: 35px;
+    border-radius: 8px;
+    border: solid;
+    border-color: lightgray;
+}
+
+#input-2 {
+    height: 65px;
+    border-radius: 8px;
+    border: solid;
+    border-color: lightgray;
+}
+#select-1{
+    height: 38px;
+    border-radius: 8px;
+    border: solid;
+    border-color: lightgray;
 }

@@ -10,7 +10,7 @@ const addTask = () => {
     
   modalContainerEl.appendChild(optionsEl);
   optionsEl.style.display = "block"
-  optionsEl.style.background = "red"
+  optionsEl.style.background = "bisque"
 
   console.log("duuslaa");
   
