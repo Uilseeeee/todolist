@@ -10,8 +10,8 @@
 
 <body>
 
-    <!-- <img class="bckgr" src="images/todo.png" alt="">
- -->
+    <img class="bckgr" src="images/todo.png" alt="">
+
 
     <div class="title">
         <p> To Do List</p>
@@ -21,9 +21,9 @@
             <div class="option-title">
                 <p class="op-title-text">To do</p>
             </div>
-            <div onclick="show('todo')" class="option-selection">
+            <!-- <div onclick="show('options')" class="option-selection">
             <p class="add-text">+ Add</p>    
-            </div>
+            </div> -->
         </div>
         <div id="todo" ></div>
         <div class="option-section">
@@ -34,7 +34,7 @@
                 <p class="add-text">+ Add</p>  
             </div>
         </div>
-        <div class="option-section">
+        <!-- <div class="option-section">
             <div class="option-title">
                 <p class="op-title-text">Stuck</p>
             </div>
@@ -49,9 +49,16 @@
             <div class="option-selection">
                 <p class="add-text">+ Add</p>  
             </div>
-        </div>
+        </div> -->
+
+
+        <p onclick="addTask()">add</p>
+
+        <div id="test" style="display:none;">test</div>
+
+        <div id="modal" style="width: 400px ; height: 300px; background-color: aqua; padding: 30px;"></div>
     </div>
-    <script src="todo.js"></script>
+    <script src="./todo.js"></script>
 </body>
 
 </html>

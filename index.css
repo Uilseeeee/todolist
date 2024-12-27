@@ -2,22 +2,25 @@
     background-color: gray;
 }
 
-/* .bckgr {
+.bckgr {
     height: 100vh;
     width: 100vw;
     margin-right: 10px;
-    position: relative;
-} */
+    position: absolute;
+}
 .title {
     font-size: 90px;
     font-weight: 600;
     display: flex;
     justify-self: center;
     font-family:"Sora";
+    position: relative;
+    background: fixed;
 }
 
 p {
     margin: 0;
+    background: fixed;
 }
 #option-pos{
     height: 200px;
@@ -26,6 +29,8 @@ p {
     align-items: center;
     gap: 20px;
     justify-self: center;
+    position: relative;
+    background: fixed;
 
 }
 .option-section{
@@ -60,9 +65,9 @@ justify-content: space-around;
    font-size: 15px;
    font-family: Arial, Helvetica, sans-serif;
 }
-#todo{
+#options{
 height: 100px;
 width: 100px;
-background-color: purple;
+background-color: lightblue;
 display: none;
 }
